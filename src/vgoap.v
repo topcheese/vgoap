@@ -1,4 +1,4 @@
-module main
+module vgoap
 
 struct Goal {
 	name string
