@@ -78,7 +78,7 @@ fn (a Agent) run() {
 	}
 }
 
-fn main() {
+fn demo() {
 	mut a := new_agent()
 	a.add_goal(new_goal("Goal A", 1))
 	a.add_goal(new_goal("Goal B", 2))
