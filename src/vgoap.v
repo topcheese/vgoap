@@ -1,4 +1,25 @@
 module vgoap
+// vgoap implements Goal Oriented Action Planning in V.
+// It provides data structures and algorithms for representing 
+// and reasoning about goals and actions in an AI planning problem.
+//
+// The key components are:
+//
+// - Goal - Represents a goal the agent wants to achieve
+// - Action - Represents an action the agent can take  
+// - Agent - Plans and executes actions to achieve goals
+//
+// The library provides functions for:
+//
+// - Creating and managing goals and actions
+// - Adding goals and actions to an agent
+// - Running the agent to select and execute actions
+//
+// Typical usage involves:
+// 1. Creating goals 
+// 2. Creating actions
+// 3. Adding goals and actions to an Agent instance
+// 4. Running the agent to select actions to achieve the goals
 
 // Goal struct represents a goal in the planning problem
 // Contains a name string and priority int
