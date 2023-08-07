@@ -1,6 +1,7 @@
 module vgoap
 
 struct Goal {
+	mut:
 	name string
 	priority int
 }
