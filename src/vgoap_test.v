@@ -1,7 +1,23 @@
 module vgoap
+// test_goal tests creating a new Goal instance
+//
+// It creates a new Goal with name 'Test Goal' and priority 10
+// Then asserts that the name and priority fields are set correctly
 
-// This test creates examples of the Goal, Action, and Agent structs and verifies that their
-// attributes are set correctly. It also tests adding goals and actions to an Agent.
+// test_action tests creating a new Action instance  
+//
+// It creates a new Action with name 'Test Action', cost 5, and empty preconditions/effects
+// Then asserts that the name and cost fields are set correctly
+
+// test_agent tests creating a new Agent and adding Goals and Actions
+//
+// It creates a new Agent instance
+// Adds 2 Goals with priorities 1 and 2
+// Adds 1 Action with cost 1
+// Asserts the length of the goals and actions slices
+// Asserts the priority fields of the 2 goals
+// Asserts the cost field of the 1 action
+
 
 fn test_goal() {
     mut goal := new_goal('Test Goal', 10)
